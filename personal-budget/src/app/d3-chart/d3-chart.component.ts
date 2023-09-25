@@ -1,5 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import * as d3 from 'd3';
+import { DataService } from '../data.service'; 
 
 @Component({
   selector: 'pb-d3-chart',
