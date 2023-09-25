@@ -1,0 +1,42 @@
+/* piechart.component.scss */
+
+/* Add styles to the SVG container */
+svg {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Style the pie chart slices */
+  path {
+    stroke: #fff;
+    stroke-width: 2px;
+  }
+  
+  /* Add hover effect to pie slices */
+  path:hover {
+    opacity: 0.8;
+  }
+  /* Styles for the container with no space between elements */
+.container {
+    display: flex;
+    justify-content: no-space; /* or space-around */
+  }
+  
+  
+  /* Style each chart component individually if needed */
+  pb-piechart
+ {
+    width: 48%; /* Adjust the width to your desired size */
+  }
+  
+  .chart {
+    /* Width for the left side of the div */
+    width: 300%; /* You can adjust this value as needed */
+  
+    /* Other styles for the chart container */
+    max-width: 400px;
+    margin: 100px auto;
+    display: block;
+  }
+  /* Style any labels, legends, or other elements as needed */
+  
